@@ -1,0 +1,15 @@
+BEGIN TRANSACTION;
+CREATE TABLE "user" (
+	`user_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`name`	TEXT NOT NULL UNIQUE,
+	`display`	TEXT,
+	`password`	TEXT NOT NULL
+);
+INSERT INTO `user` VALUES (1,'default','Anonymous','$2y$10$zghEEIFXzwvSHgAlinSSjOqtOxfufWnx7mO8Qtj7qf8v4AJgS3fuq');
+CREATE TABLE "entry" (
+	`entry_id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`user_id`	INTEGER NOT NULL,
+	`title`	TEXT NOT NULL,
+	`article`	TEXT NOT NULL
+);
+COMMIT;

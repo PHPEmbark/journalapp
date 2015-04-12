@@ -1,0 +1,27 @@
+<?php
+foreach ($this->entries as $entry) {
+    ?>
+    <section>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3><?= $this->escapeHtml($entry->title) ?> by <?= $this->escapeHtml($entry->name) ?></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-8">
+                <p class="text-muted">
+                    <?= $this->formatText($entry->article) ?>
+                </p>
+            </div>
+            <div class="col-xs-4">
+                <p class="pull-right">
+                    <a href="/entries/edit/<?= $entry->entry_id ?>" class="btn btn-primary">Edit</a>
+                    <a href="/entries/delete/<?= $entry->entry_id ?>" class="btn btn-danger">Delete</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <?php
+}
+?>

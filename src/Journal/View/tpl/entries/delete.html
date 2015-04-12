@@ -1,0 +1,14 @@
+<h2>Delete Entry</h2>
+<form action="/entries/delete" method="POST">
+    <section>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3><?= $this->escapeHtml($this->entry->title) ?></h3>
+            </div>
+        </div>
+    </section>
+    <br>
+    <input type="hidden" name="entry_id" value="<?= $this->entry->entry_id ?>">
+    <input type="submit" class="btn btn-primary" value="Delete Entry">
+</form>
+<?= $this->displayErrors($this->errors) ?>

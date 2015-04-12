@@ -1,0 +1,16 @@
+<h2>Edit Entry</h2>
+<form action="/entries/edit" method="POST">
+    <label>
+        Title: <input type="text" name="title" value="<?= $this->entry->title ?>">
+    </label>
+    <br>
+    <label>
+        Description:
+        <br>
+        <textarea name="article" cols="60" rows="20"><?= $this->entry->article ?></textarea>
+    </label>
+    <br>
+    <input type="hidden" name="entry_id" value="<?= $this->entry->entry_id ?>">
+    <input type="submit" class="btn btn-primary" value="Edit Entry">
+</form>
+<?= $this->displayErrors($this->errors) ?>

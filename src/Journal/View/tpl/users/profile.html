@@ -1,0 +1,18 @@
+<h2>Profile</h2>
+<form action="/users/profile" method="POST">
+    <label>
+        Name: <input type="text" name="name" value="<?= $this->user->name ?>">
+    </label>
+    <br>
+    <label>
+        Display Name: <input type="text" name="display" value="<?= $this->user->display ?>">
+    </label>
+    <br>
+    <label>
+        Password: <input type="password" name="password" value="">
+    </label>
+    <div>Leave blank to keep current password.</div>
+    <br>
+    <input type="submit" class="btn btn-primary" value="Save Changes">
+</form>
+<?= $this->displayErrors($this->errors) ?>

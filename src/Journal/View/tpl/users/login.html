@@ -1,0 +1,13 @@
+<h2>Login</h2>
+<form action="/users/login" method="POST">
+    <label>
+        Name: <input type="text" name="name" value="">
+    </label>
+    <br>
+    <label>
+        Password: <input type="password" name="password" value="">
+    </label>
+    <br>
+    <input type="submit" class="btn btn-primary" value="Login">
+</form>
+<?= $this->displayErrors($this->errors) ?>
