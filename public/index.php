@@ -11,3 +11,4 @@ $loader->register();
 
 // our dependencies
 $db = new \Journal\Db($config['db']['db_path'], $config['db']['db_name']);
+$tpl = new \Journal\Template($config['template']['tpl_path'], $config['template']['base_path']);

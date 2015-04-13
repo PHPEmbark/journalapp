@@ -7,11 +7,9 @@ Each branch provides a "snapshot" of the finished state at the end of each secti
 
 The application attempts to show best practices for a beginning developer from learning "Hello World" to Application Architecture, all in about 8 hours.
 
-## Concepts Covered in 4 - Organization and Projects - Lesson 2 - Data Models
-1. Base DB class and configuration
-2. Injectable Database Access Objects
-3. Data Objects with Validation
-4. Integration of Data Objects with Database Access
+## Concepts Covered in 4 - Organization and Projects - Lesson 3 - Views and Templates
+1. Base Template class and configuration
+2. Html pulled out into templates
 
 ### Credits and Thanks
 
