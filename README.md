@@ -8,11 +8,10 @@ Each branch provides a "snapshot" of the finished state at the end of each secti
 
 The application attempts to show best practices for a beginning developer from learning "Hello World" to Application Architecture, all in about 8 hours.
 
-## Concepts Covered in 2 - The Internet - Lesson 4 - Forms
-1. Create forms for creating a journal entry
-1. Create forms for editing a journal entry
-1. Create forms for deleting a journal entry
-1. Create forms for editing a user profile
+## Concepts Covered in 2 - The Internet - Lesson 5 - Sessions
+1. Create a login form
+1. Create a login/logout page
+1. Use redirects
 
 ### Credits and Thanks
 

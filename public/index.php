@@ -20,6 +20,8 @@
             <p><a href="/edit.php">Edit an Entry</a></p>
             <p><a href="/delete.php">Delete an Entry</a></p>
             <p><a href="/profile.php">Edit a Profile</a></p>
+            <p><a href="/login.php">Login</a></p>
+            <p><a href="/logout.php">Logout</a></p>
         </div>
     </body>
 </html>
