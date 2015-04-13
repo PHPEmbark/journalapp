@@ -27,7 +27,6 @@ if(isset($_POST) && count($_POST) > 0) {
             </div>
         </nav>
         <div class="container">
-            <h2>Edit Profile</h2>
            <h2>Profile</h2>
             <form action="/profile.php" method="POST">
                 <label>
