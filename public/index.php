@@ -15,10 +15,11 @@
             </div>
         </nav>
         <div class="container">
-            <h1>Here is my header</h1>
-            <p>Here is some text</p>
-            <p><a href="/redirect.php">Do a redirect</a></p>
-            <p><a href="/plain.php">View plain text</a></p>
+            <h1>Forms</h1>
+            <p><a href="/create.php">Create an Entry</a></p>
+            <p><a href="/edit.php">Edit an Entry</a></p>
+            <p><a href="/delete.php">Delete an Entry</a></p>
+            <p><a href="/profile.php">Edit a Profile</a></p>
         </div>
     </body>
 </html>
