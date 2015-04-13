@@ -1,4 +1,6 @@
 <?php
 return [
-    'settings' => 'here',
+    'autoloader' => [
+        'class_path' => $base_path . '/src',
+    ],
 ];
