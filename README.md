@@ -6,12 +6,12 @@ This branch contains the state of the practial application for the PHPEmbark Cur
 Each branch provides a "snapshot" of the finished state at the end of each section and each lesson
 
 The application attempts to show best practices for a beginning developer from learning "Hello World" to Application Architecture, all in about 8 hours.
-+
-## Concepts Covered in 4 - Organization and Projects - Lesson 1 - File Layout
-1. File Layout
-2. Adding Bootstrap Files
-3. Separation of Concerns
-4. Configuration and Autoloading
+
+## Concepts Covered in 4 - Organization and Projects - Lesson 2 - Data Models
+1. Base DB class and configuration
+2. Injectable Database Access Objects
+3. Data Objects with Validation
+4. Integration of Data Objects with Database Access
 
 ### Credits and Thanks
 
