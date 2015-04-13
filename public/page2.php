@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>My Journal</title>
+        <title>Page 2</title>
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/css/bootstrap.theme-min.css">
         <script type="text/javascript" src="/js/bootstrap.min.js"></script>
@@ -15,10 +15,8 @@
             </div>
         </nav>
         <div class="container">
-            <h1>Here is my header</h1>
-            <p>Here is some text</p>
-            <p><a href="/redirect.php">Do a redirect</a></p>
-            <p><a href="/plain.php">View plain text</a></p>
+            <h1>I am Page 2</h1>
+            <p>I was redirected from redirect.php</p>
         </div>
     </body>
 </html>

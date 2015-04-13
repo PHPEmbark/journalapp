@@ -8,9 +8,9 @@ Each branch provides a "snapshot" of the finished state at the end of each secti
 
 The application attempts to show best practices for a beginning developer from learning "Hello World" to Application Architecture, all in about 8 hours.
 
-## Concepts Covered in 2 - The Internet - Lesson 2 - Basic Html
-1. HTML display showing a basic page
-2. Integrate Bootstrap for prettier layout
+## Concepts Covered in 2 - The Internet - Lesson 3 - Redirects and Headers
+1. Use a header to display a plain text page
+2. Use a header to redirect to another page
 
 ### Credits and Thanks
 
