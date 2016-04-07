@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html>
     <head>
@@ -16,6 +19,9 @@
         </nav>
         <div class="container">
             <h1>Forms</h1>
+            <?php if (isset($_SESSION['user_id'])): ?>
+                <p>Welcome, user <?php echo htmlentities($_SESSION['user_id']); ?></p>
+            <?php endif; ?>
             <p><a href="/create.php">Create an Entry</a></p>
             <p><a href="/edit.php">Edit an Entry</a></p>
             <p><a href="/delete.php">Delete an Entry</a></p>
